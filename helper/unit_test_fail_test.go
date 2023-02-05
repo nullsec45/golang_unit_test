@@ -11,7 +11,7 @@ func TestFail(t *testing.T) {
 	if result != "Hello Fajar" {
 		t.Fail()
 	}
-	fmt.Println("Test Fail Done")
+	fmt.Println("Test Fail")
 }
 
 func TestFailNow(t *testing.T) {
